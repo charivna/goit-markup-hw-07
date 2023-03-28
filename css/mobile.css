@@ -1,0 +1,9 @@
+/* точка перелому 480px */
+
+
+@media (min-width:428px)
+{
+ .container {
+    width:428px;
+ }
+}
