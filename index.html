@@ -10,13 +10,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/desctop.css">
+   
 </head>
 <body>
     <header class="header">
 
-     <div class="container">
+     <div class="container header-container">
        <nav class="main-nav">
             <a href="./index.html" class="logo">
                 <!-- <span style="color:#4D5AE5">Web</span>Studio  -->
@@ -28,6 +31,11 @@
                 <li class="item"><a href="" class="link">Contacts</a></li>
             </ul>
         </nav> 
+        <button type="button" class="mobile-menu-open" data-menu-open>
+            <svg class="mobile-menu-open__icon" width="32" height="22">
+                <use href="./images/icons.svg#hamburger"></use>
+            </svg>
+        </button>
         <address class="address">
 <ul class="site-contacts list">
     <li class="item">
@@ -40,17 +48,80 @@
 </ul>
         </address>
     </div>
+    <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+        <button class="mobile-menu__close-btn" data-menu-close> 
+            <svg class="mobile-menu__close-icon" width="24" height="24">
+                <use href="./images/sprite.svg#close"></use>
+            </svg>
+        </button>
+        <ul class="mobile-menu__nav-list list">
+            <li class="nav-list__item"><a href="./index.html" class="nav-list__link">Studio</a></li>
+            <li class="nav-list__item"><a href="./portfolio.html" class="nav-list__link">Portfolio</a></li>
+            <li class="nav-list__item"><a href="" class="nav-list__link current">Contacts</a></li>
+        </ul>
+    <address class="mobile-menu__address">
+        <ul class="mobile-menu__contacts list">
+            <li class="contacts-item">
+                <a href="tel:+110001111111" class="contacts-link tel">+11 (000) 111-11-11</a>
+            </li> 
+
+            <li class="contacts__item">
+                <a href="mailto:info@devstudio.com" class="contacts-link mail">info@devstudio.com</a>
+            </li>
+    
+        </ul>
+    </address>
+
+    <ul class="mobile-menu__social-links list">
+        <li class="social-links__item">
+            <a class="social-links__link" href="https://www.instagram.com/">
+                <svg class="social-links__icon">
+                    <use href="./images/sprite.svg#instagram"></use>
+                </svg>
+            </a>
+        </li>
+    
+        <li class="social-links__item">
+            <a class="social-links__link" href="https://twitter.com/">
+                <svg class="social-links__icon">
+                    <use href="./images/sprite.svg#twitter"></use>
+                </svg>
+            </a>
+        </li>
+    
+        <li class="social-links__item">
+            <a class="social-links__link" href="https://www.facebook.com/">
+                <svg class="social-links__icon">
+                    <use href="./images/sprite.svg#facebook"></use>
+                </svg>
+            </a>
+    
+        </li>
+    
+        <li class="social-links__item">
+            <a class="social-links__link" href="https://www.linkedin.com/">
+                <svg class="social-links__icon">
+                    <use href="./images/sprite.svg#linkedin"></use>
+                </svg>
+            </a>
+    
+        </li>
+    
+    </ul>
+    </div>
+    </div>
     </header>
-<main>
-    <section class="hero">
+<!-- <main> -->
+    <!-- <section class="hero">
         <div class="container">
     <h1 class="hero-title">Effective Solutions for Your Business</h1>
     <button type="button" class="button-hero" data-modal-open>Order Service</button>
     </div>
 
-    </section>
+    </section> -->
 
-    <section class="section features">
+    <!-- <section class="section features">
        <div class="container">
         <h2 class="section-title" hidden>Services offered</h2>
     
@@ -118,10 +189,10 @@
     </li>
 </ul>
 </div>
-    </section>
+    </section> -->
     
 
-<section class="section team">
+<!-- <section class="section team">
   <div class="container">
     <h2 class="team-title">Our Team</h2>
     <ul class="list">
@@ -308,9 +379,9 @@
         </li>
     </ul>
     </div>
-</section>
+</section> -->
 
-<section class="section customers">
+<!-- <section class="section customers">
     <div class="container">
         <h2 class="customers-title">Customers</h2>
      <ul class="customers-list list">
@@ -362,9 +433,9 @@
 
 
     </div>
-</section>
-</main>
-<footer class="footer">
+</section> -->
+<!-- </main> -->
+<!-- <footer class="footer">
     <div class="container parts">
         <div class="part-one">
 <a href="./index.html" class="logo">
@@ -428,9 +499,9 @@
 </form>
 
 </div>
-</div>
+</div> -->
 
-</footer>
+<!-- </footer>
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
             
@@ -466,15 +537,13 @@
             <textarea name="comment" id="comment" placeholder="Text input"></textarea>
             </div>
 
-          
-              
             <div class="checkbox">
             <label class="checkbox-label">
                 <input class="checkbox-input" type="checkbox" name="accept" value="accept" >
                 <span class="check-icon"></span>
-               <!-- <svg class="check-icon">
+               <svg class="check-icon">
                 <use href="./images/icons.svg#check-mark"></use>
-               </svg> -->
+               </svg>
             I accept the terms and conditions of the
             <a href="">Privacy Policy</a>
             </label>
@@ -490,7 +559,9 @@
     
     
     </div>
-</div>
-<script src="./js/modal.js"></script>
+</div> -->
+<!-- <script src="./js/modal.js"></script> -->
+
+<script src="./js/mobile-menu.js"></script>
 </body>
 </html>
