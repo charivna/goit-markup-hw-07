@@ -107,6 +107,17 @@ width: 264px;
 }
 }
 
+@media screen and (min-width:1200px),
+screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+   .hero {
+      background-image: linear-gradient(to right,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+         url(../images/desctop-hero@2.jpg);
+   }
+}
  
 
 
