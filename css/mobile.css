@@ -152,7 +152,158 @@ width:426px;
 margin-left: auto;
 margin-right: auto;
  }
-}
+ .hero{
+            background-color: var(--title-text-color);
+            text-align: center;
+            padding-top: 112px;
+            padding-bottom: 112px;
+            height: 432px;
+            max-width: 428px;
+            margin-left: auto;
+            margin-right: auto;
+            background-image: linear-gradient(to right,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), 
+                    url(../images/hero-image-tel.jpg);
+            
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        }
+       .hero-title{
+        color: var(--white-color);
+            font-size: 36px;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            margin-top: 0;
+            margin-bottom: 72px;
+            max-width: 320px;
+            margin-left: auto;
+            margin-right: auto;
+       }
+
+           .button-hero {
+               color: var(--white-color);
+               background-color: var(--logo-web-color);
+               font-family: inherit;
+               font-weight: 500;
+               font-size: 16px;
+               line-height: 1.5;
+               cursor: pointer;
+               box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+               border-radius: 4px;
+               padding: 16px 32px;
+               min-width: 169px;
+               text-align: center;
+               border: none;
+               transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+               outline: none;
+        }
+        .icon-picture{
+            display: none;
+        }
+        .features-list{
+         padding-top: 96px;
+         padding-bottom: 96px;
+        }
+        .features-list .title{
+            margin-top: 0;
+            margin-bottom: 8px;
+            color: var(--title-text-color);
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 1.1;
+                text-align: center;
+        }
+        .features-list .item:not(:last-child){
+            margin-bottom: 72px;
+        }
+                .features-list p,
+                .team p {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+    .do{
+        display: none;
+    }
+
+        .team .card {
+                width: 264px;
+                    margin-left: auto;
+                    margin-right: auto;
+            background-color: var(--white-color);
+        
+            min-width: 264px;
+            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+            margin-bottom: 72px;
+        }
+    
+        .team {
+            background-color: var(--buttons-background-color);
+        }
+    
+        .team .list {
+    
+            display: block;
+            gap: 24px;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            flex-wrap: wrap;
+    
+        }
+    
+        .names {
+            padding: 32px 16px;
+        }
+        .names .title{
+            margin-top:0px;
+            margin-bottom: 8px;
+        }
+                .team .team-icons {
+                    display: flex;
+                    gap: 24px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 8px;
+                    list-style: none;
+                    outline: none;
+                }
+        
+                .social-link {
+                    background-color: var(--logo-web-color);
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                    display: block;
+                    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                }
+        
+                .social-link:hover,
+                .social-link:focus {
+                    background-color: var(--accent-color);
+                }
+        
+                .team-link {
+                    width: 40px;
+                    height: 40px;
+                    padding: 12px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .team-title{
+                    text-align: center;
+                    margin-bottom: 72px;
+                    font-size: 36px;
+                        line-height: 1.1;
+                        text-align: center;
+                        text-transform: capitalize;
+                        margin-top: 0;
+                }
+ }
+
 
 .container {
     padding-left: 16px;

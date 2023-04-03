@@ -61,8 +61,11 @@
 .logo{
     margin-right: 120px;
 }
-
+.header{
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
+
 .site-contacts .link{
 
     color: var(--primary-text-color);
@@ -80,5 +83,49 @@
 .site-contacts .link:focus {
     color: var(--accent-color);
 }
+.hero {
+    height: 436px;
+    max-width: 768px;
+    background-image: linear-gradient(to right,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/hero-tablet.jpg);
+}
 
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+    max-width: 496px;
+}
+.features-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.features-list .item{
+    flex-basis: calc((100% - 24px)/2);
+}
+  .features-list .title {
+      margin-top: 0;
+      margin-bottom: 8px;
+      color: var(--title-text-color);
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.1;
+      text-align: center;
+  }
+  .team .card{
+    flex-basis: calc((100% - 24px)/2);
+    max-width: 264px;
+ 
+  }
+  .team .list {
 
+      display: flex;
+
+  }
+  .team-title{
+    padding-top: 96px;
+  }
+}
