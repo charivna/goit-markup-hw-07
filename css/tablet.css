@@ -131,7 +131,38 @@
    .client {
        flex-basis: calc((100% - 32px)/3);
    }
+   .studio-footer {
+       color: var(--white-color);
 }
+.footer form{
+    display: flex;
+ align-items: center;
+}
+.subscribe-form {
+    width: 453px;
+    height: 80px;
+}
+.form-footer input{
+    width: 264px;
+    height: 40px;
+    gap:24px
+}
+.subscribe-button{
+    margin-left: 0;
+}
+.tablet{
+    display: flex;
+}
+         .part-one {
+     
+             margin-left: 108px;
+             margin-right: 24px;
+             margin-bottom: 72px;
+    
+         }
+}
+
+
 @media screen and (min-width:768px),
 screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
