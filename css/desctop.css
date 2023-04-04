@@ -107,6 +107,20 @@ width: 264px;
 .client {
    flex-basis: calc((100% - 120px)/6);
 }
+.parts{
+   display:flex;
+}
+.part-one{
+   margin-left: 0;
+   margin-right: 120px;
+   width: 264px;
+}
+.subscribe-form{
+   margin-left: 80px;
+}
+.form-footer input{
+   margin-left:0;
+}
 }
 
 @media screen and (min-width:1200px),

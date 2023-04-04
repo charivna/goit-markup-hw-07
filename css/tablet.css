@@ -145,7 +145,7 @@
 .form-footer input{
     width: 264px;
     height: 40px;
-    gap:24px
+  
 }
 .subscribe-button{
     margin-left: 0;
@@ -160,6 +160,9 @@
              margin-bottom: 72px;
     
          }
+                 .form-footer input{
+                    margin-left: 108px;
+                 }
 }
 
 
