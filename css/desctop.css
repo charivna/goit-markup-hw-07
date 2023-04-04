@@ -103,7 +103,9 @@ width: 264px;
    margin: 0;
    text-align: center;
    flex-wrap: wrap;
-
+}
+.client {
+   flex-basis: calc((100% - 120px)/6);
 }
 }
 

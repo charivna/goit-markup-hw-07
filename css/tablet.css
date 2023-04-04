@@ -128,6 +128,9 @@
   .team-title{
     padding-top: 96px;
   }
+   .client {
+       flex-basis: calc((100% - 32px)/3);
+   }
 }
 @media screen and (min-width:768px),
 screen and (min-device-pixel-ratio: 2),
@@ -139,4 +142,5 @@ screen and (min-resolution: 2dppx) {
                 rgba(46, 47, 66, 0.7)),
             url(../images/hero-tablet@2.jpg);
     }
+    
 }
