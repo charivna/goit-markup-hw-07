@@ -136,7 +136,7 @@
 }
 .footer form{
     display: flex;
- align-items: center;
+ align-items: flex-end;
 }
 .subscribe-form {
     width: 453px;
@@ -162,6 +162,7 @@
          }
                  .form-footer input{
                     margin-left: 108px;
+                    margin-bottom: 0;
                  }
 }
 
