@@ -125,9 +125,7 @@
       display: flex;
 
   }
-  .team-title{
-    padding-top: 96px;
-  }
+ 
    .client {
        flex-basis: calc((100% - 32px)/3);
    }
@@ -148,7 +146,7 @@
   
 }
 .subscribe-button{
-    margin-left: 0;
+    margin-left: 24px;
 }
 .tablet{
     display: flex;

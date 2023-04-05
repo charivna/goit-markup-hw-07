@@ -201,9 +201,9 @@ color: var(--white-color);
 .icon-picture{
     display: none;
 }
-.features-list{
-    padding-top: 96px;
-    padding-bottom: 96px;
+.features{
+        padding-top: 96px;
+            padding-bottom: 96px;
 }
 .features-list .title{
     margin-top: 0;

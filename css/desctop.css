@@ -54,8 +54,10 @@ justify-content: space-between;
  }
  .features-list .item {
    flex-basis: calc((100% - 72px)/4);
+   margin-bottom: 0;
 }
-.features-list{
+.features{
+   padding-top: 120px;
    padding-bottom: 120px;
 }
 .features-list .title,
@@ -69,6 +71,8 @@ justify-content: space-between;
 }
 .do{
    display: block;
+   margin-top: 120px;
+   margin-bottom: 120px;
 }
 .doing {
    display: flex;
