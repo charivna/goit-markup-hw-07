@@ -146,7 +146,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 
 
  .container {
-width:426px;
+width:100%;
 margin-left: auto;
 margin-right: auto;
  }
@@ -470,12 +470,15 @@ margin-right: auto;
     border: 1px solid var(--white-color);
     letter-spacing: 0.04em;
     border-radius: 4px;
-    width: 398px;
+    max-width: 398px;
     height: 40px;
     padding: 8px 16px;
     outline: none;
-  
     margin-bottom: 16px;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form-footer input::placeholder {
@@ -501,7 +504,8 @@ margin-right: auto;
     text-align: center;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-left: 131px;
+    margin-right: auto;
+        margin-left: auto;
     outline: none;
 
 

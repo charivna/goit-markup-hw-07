@@ -118,11 +118,11 @@
   .team .card{
     flex-basis: calc((100% - 24px)/2);
     max-width: 264px;
- 
+    margin-bottom: 0px;
   }
   .team .list {
-
-      display: flex;
+ display: flex;
+    
 
   }
  
