@@ -119,10 +119,15 @@
     flex-basis: calc((100% - 24px)/2);
     max-width: 264px;
     margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .team .card:not(:last-child) {
+      margin-bottom: 0px;
   }
   .team .list {
  display: flex;
-    
+    justify-content: center;
 
   }
  
