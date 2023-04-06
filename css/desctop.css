@@ -58,7 +58,7 @@ justify-content: space-between;
 }
 .features{
    padding-top: 120px;
-   padding-bottom: 120px;
+   padding-bottom: 0px;
 }
 .features-list .title,
 .team .title {
@@ -127,6 +127,9 @@ width: 264px;
 }
 .form-footer{
    margin-left: 80px;
+}
+.features-list .item:not(:last-child) {
+   margin-bottom: 0px;
 }
 }
 
