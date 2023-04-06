@@ -150,6 +150,9 @@
     height: 40px;
   
 }
+.form-footer{
+    margin-left: 0px;
+}
 .subscribe-button{
     margin-left: 24px;
 }

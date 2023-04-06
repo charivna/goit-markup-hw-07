@@ -125,6 +125,9 @@ width: 264px;
 .form-footer input{
    margin-left:0;
 }
+.form-footer{
+   margin-left: 80px;
+}
 }
 
 @media screen and (min-width:1200px),
