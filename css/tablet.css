@@ -58,18 +58,20 @@
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+
 .logo{
     margin-right: 120px;
 }
 .header{
     padding-top: 0px;
     padding-bottom: 0px;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .site-contacts .link{
 
     color: var(--primary-text-color);
-        font-size: 12px;
+        font-size: 16px;
         line-height: 1.2;
         text-decoration: none;
         font-style: normal;

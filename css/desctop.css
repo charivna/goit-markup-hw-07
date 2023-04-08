@@ -170,7 +170,8 @@ screen and (min-resolution: 2dppx) {
    top: 0;
    left: 0;
    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   transform: translateY(100%)
+   transform: translateY(100%);
+   margin:0;
 }
 
 .item-list .item:hover .text-overlay {
