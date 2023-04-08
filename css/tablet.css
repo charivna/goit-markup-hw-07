@@ -137,6 +137,9 @@
    .studio-footer {
        color: var(--white-color);
 }
+.footer .logo{
+    margin-left: 0px;
+}
 .footer form{
     display: flex;
  align-items: flex-end;
