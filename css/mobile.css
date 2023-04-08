@@ -146,7 +146,6 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 }
 }
 
-
  .container {
 width:100%;
 margin-left: auto;
@@ -529,6 +528,63 @@ margin-right: auto;
     padding-bottom: 24px;
 }
 
+.filter{
+display: flex;
+gap: 24px;
+justify-content: flex-start;
+flex-wrap: wrap;
+margin-bottom: 48px;
+}
+
+.filter .button {
+    color: var(--logo-web-color);
+    background-color: var(--buttons-background-color);
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 12px 24px;
+    text-align: center;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.filter .button:hover,
+.filter .button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border-color: var(--accent-color);
+}
+.portfolio.section{
+    display: block;
+    padding-bottom: 48px;
+    padding-top: 48px;
+
+}
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.text-overlay{
+    display: none;
+}
+.border {
+    border: 1px solid var(--border-color);
+    padding: 32px 16px;
+    border-top: none;
+}
+
+.item-list .item:not(:last-child) {
+margin-bottom: 48px;
+ 
+}
 @media screen and (min-width:426px),
 screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),

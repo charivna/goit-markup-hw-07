@@ -173,18 +173,17 @@
                                  .features-list .item:not(:last-child) {
                                      margin-bottom: 0px;
                                  }
-                                 @media screen and (min-width:768px),
-screen and (min-device-pixel-ratio: 2),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(to right,
-                rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/hero-tablet@2.jpg);
-    }
-    
+                        
+        .filter {
+            justify-content: center;
 }
+.item-list .item {
+    flex-basis: calc((100% - 48px)/3);
+}
+.item-list{
+    justify-content: flex-start;
+}
+
 @media screen and (min-width:768px),
 screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
@@ -195,6 +194,11 @@ screen and (min-resolution: 2dppx) {
                 rgba(46, 47, 66, 0.7)),
             url(../images/hero-tablet@2.jpg);
     }
+
+}
+
+.item-list .item {
+    flex-basis: calc((100% - 24px)/2);
 
 }
 }
