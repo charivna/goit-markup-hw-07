@@ -156,6 +156,7 @@ screen and (min-resolution: 2dppx) {
 
 
 .text-overlay {
+   display: block;
    width: 100%;
    height: 100%;
    color: var(--buttons-background-color);
@@ -175,9 +176,7 @@ screen and (min-resolution: 2dppx) {
 .item-list .item:hover .text-overlay {
    transform: translateY(0);
 }
-.text-overlay{
-   display: block;
-}
+
 }
 
 
